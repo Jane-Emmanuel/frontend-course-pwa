@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Front-End Course — Live Typing</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Front-End Masterclass</h1>
+    <nav>
+      <select id="lessonSelect"></select>
+    </nav>
+  </header>
+
+  <main>
+    <section id="lessonArea">
+      <pre id="codeDisplay" class="typing"></pre>
+    </section>
+    <section>
+      <iframe id="livePreview"></iframe>
+    </section>
+  </main>
+
+  <footer id="app-version">Version loading...</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
